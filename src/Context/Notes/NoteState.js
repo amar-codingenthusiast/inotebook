@@ -2,7 +2,7 @@ import NoteContext from "./NoteContext";
 import { useState } from "react";
 
 export default function NoteState(props) {
-	const host = "http://localhost:5000";
+	const host = "https://inotebook-backend-server.glitch.me";
 	const [notes, setNotes] = useState([]);
 
 	const fetchAllNotes = async () => {
