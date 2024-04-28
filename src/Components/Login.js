@@ -125,7 +125,7 @@ export default function Login() {
 					</button>
 				</form>
 				<div className="my-2">
-					Don't have an account? <a href="/signup">Signup here</a>
+					Don't have an account? <a href="/inotebook/signup">Signup here</a>
 				</div>
 			</div>
 		</div>

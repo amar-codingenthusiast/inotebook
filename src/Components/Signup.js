@@ -160,7 +160,7 @@ export default function Signup() {
 					</button>
 				</form>
 				<div className="my-2">
-					Already have an account? <a href="/login">Login here</a>
+					Already have an account? <a href="/inotebook/login">Login here</a>
 				</div>
 			</div>
 		</div>
