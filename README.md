@@ -1,6 +1,6 @@
 # iNoteBook
 
-iNoteBook is a MERN Stack app that provides notebook on cloud.
+iNoteBook is a MERN Stack app that provides secured note book on cloud.
 
 ## Getting Started
 
@@ -28,17 +28,25 @@ To get a local copy up and running, follow these simple steps.
 5. Open your browser and visit http://localhost:3000/inotebook to view the app.
 
 ## Features
+ - Sign up and Log in for security and maintaining privacy of users' data
+ - Secured Password with Bcrypt.js Hash and Salt
+ - MongoDB Atlas used for Database
+ - Strong password is required for signup
+ - JWT (Json Web Token) used for verifing authenticity of the current user
+ - Add, update, delete & view notes with created and last updated time
  - Responsive design for all devices
 
 ## Built with
  - MERN Stack (MongoDB, Express.js, React.js, Node.js)
  - JWT (Json Web Token)
- - Bcrypt
+ - Bcrypt.js
  - Bootstrap
  - Font Awesome
 
 ## Deployment
+Backend deployed on Glitch and Frontend deployed on GitHub Pages.
 You can access the live version of iNoteBook app [here](https://amar-codingenthusiast.github.io/inotebook)
+Check Backend Git repository [here](https://github.com/amar-codingenthusiast/inotebook-backend)
 
 ## Contributing
 Contributions are welcome! Here's how you can contribute:
