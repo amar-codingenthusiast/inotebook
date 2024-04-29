@@ -1,4 +1,4 @@
-# iNoteBook
+# iNoteBook (Frontend)
 
 Welcome to iNoteBook, your secure cloud-based notebook solution built on the powerful MERN Stack. iNoteBook offers a seamless experience for users to store, manage, and access their notes with confidence and convenience.
 
