@@ -71,7 +71,7 @@ To get a local copy up and running, follow these simple steps.
 
 ## Built with
  - MERN Stack (MongoDB, Express.js, React.js, Node.js)
- - JWT (Json Web Token)
+ - JWT (JSON Web Token)
  - Bcrypt.js
  - Bootstrap
  - Font Awesome
