@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/inotebook/static/js/main.cf86c8cd.js",
+    "main.js": "/inotebook/static/js/main.f950e60b.js",
     "index.html": "/inotebook/index.html",
-    "main.cf86c8cd.js.map": "/inotebook/static/js/main.cf86c8cd.js.map"
+    "main.f950e60b.js.map": "/inotebook/static/js/main.f950e60b.js.map"
   },
   "entrypoints": [
-    "static/js/main.cf86c8cd.js"
+    "static/js/main.f950e60b.js"
   ]
 }
