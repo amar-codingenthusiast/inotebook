@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navbar from "./Components/Navbar";
 import Notes from "./Components/Notes";
 import About from "./Components/About";
@@ -11,6 +12,15 @@ import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 
 function App() {
+	useEffect(() => {
+		const shownWarning = sessionStorage.getItem("shownWarning");
+		if (!shownWarning) {
+			alert(
+				"Please note: The server is hosted on Glitch.com and may take up to 1 minute to wake up on the first request. After waking up, it will function smoothly. Thank you for your patience."
+			);
+			sessionStorage.setItem("shownWarning", "true");
+		}
+	}, []);
 	return (
 		<NoteState>
 			<AlertState>
