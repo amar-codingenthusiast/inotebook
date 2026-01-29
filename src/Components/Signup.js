@@ -30,7 +30,7 @@ export default function Signup() {
 		}
 		try {
 			const response = await fetch(
-				`https://inotebook-backend-server.glitch.me/api/auth/create-user`,
+				`https://inotebook-backend-xfea.onrender.com/api/auth/create-user`,
 				{
 					method: "POST",
 					headers: {

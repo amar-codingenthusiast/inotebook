@@ -15,7 +15,7 @@ export default function Login() {
 		e.preventDefault();
 		try {
 			const response = await fetch(
-				`https://inotebook-backend-server.glitch.me/api/auth/login`,
+				`https://inotebook-backend-xfea.onrender.com/api/auth/login`,
 				{
 					method: "POST",
 					headers: {
